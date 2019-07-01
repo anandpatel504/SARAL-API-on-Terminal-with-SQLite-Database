@@ -9,7 +9,7 @@ Now that I have created our project, I did install the node-sqlite3 package from
     
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
-**To install express, run the following command on your terminal in Linux.
+#### To install express, run the following command on your terminal in Linux.
 
     sudo apt-get install npm
     npm install express --save
