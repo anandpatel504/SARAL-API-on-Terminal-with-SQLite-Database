@@ -1,7 +1,7 @@
 # SQLite-Database
-## In this project I have write Saral-like-API by use of SQLite database. I have create saraldb database in this database create two table courses and exercise. this project we can test on postman also use express module in this project. 
+ *In this project I have write Saral-like-API by use of SQLite database. I have create saraldb database in this database create two table courses and exercise. this project we can test on postman also use express module in this project. 
 
-# Installing the SQLite3 Driver for Node.js
+*Installing the SQLite3 Driver for Node.js
 Now that I have created our project, I did install the node-sqlite3 package from npm using the following command:
 
     sudo apt-get update
