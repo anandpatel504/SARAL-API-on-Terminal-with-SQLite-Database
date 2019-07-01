@@ -1,0 +1,38 @@
+Here I have write important of queries of SQLite, we can easily create, insert and delete table by use of these are queries.
+
+1) How to create table?
+
+	Here I Created table name = Anand
+
+	CREATE TABLE Anand(id integer, name text, description text);
+
+-- You can check if you have make or not by using cmd .table if this get successful then you can use
+
+	INSERT INTO Anand (id, name, description) VALUES (1,'name', 'yes');
+							or
+	INSERT INTO Anand values(1,'name','yes');
+
+You can SELECT * from Anand;
+
+.mode column
+.headers on
+.width 5 7 9;
+.save
+.quit
+
+2) How to change table name?
+
+	ALTER TABLE Anand rename to patel;
+
+3) How to do update table?
+
+	update Anand set name = "navgurukul" where id = 1;
+
+4) How to do Delete table?
+ 
+ 	Delete from Anand where id = 1;
+
+5) How to do DELETE database;
+
+	drop database database name;
+
